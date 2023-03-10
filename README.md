@@ -1,6 +1,6 @@
 # Prediction of Outlet Sales
 
-### Outlet Sales using Linear Regression
+### Outlet Sales using Linear Regression and Decision Tree Models
 
 ##### Author: Robert Yonce
 
@@ -16,10 +16,21 @@
 - From there I prepped the data so I could test models on the data given to help see which model would help predict from future data given.
 	- The two models tested were Linear Regression and Decision Tree Model.
 
-### Results
-- Add Visuals
+### Visuals
+![](Visibility.png)
 
-### Model
+- Item Visibility with Item Sales
+	- Many items have low visibility but high sales! Many items don't have a visibility over 20%. 
+	- Could break down more for individual item types but great start to understand the products we are selling. 
+	- Does not show a correlation for Item Sales and Visibility
+	
+![](Sales.png)
+
+- Outlet Type with Averages Sales
+	- From the graph, we are shown the Medium Outlet Types have the highest average followed by High Outlet. 
+	- This is helpful to understand where the most money is being generated.
+	
+### Results of Models
 - The Decision Tree Model was chosen for this set of data
 - Decision Tree Model Test Scores
 	- MAE(Mean Absolute Error) : 738.35
